@@ -1,121 +1,122 @@
-    body{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
-    input{
-        width: 80%;
-        height: 13px;
-        padding: 10px;
-        font-size: 1.1rem;
-        border-radius: 5px;
-        border: 0;
-        margin: 10px;
-    }
-    button{
-        margin-top: 1.2rem;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-        width: 70%;
-        padding: 0.8rem 1rem;
+input {
+    width: 80%;
+    height: 0.81rem;
+    padding: 0.63rem;
+    font-size: 1.1rem;
+    border-radius: 0.31rem;
+    border: 0;
+    margin: 0.63rem;
+}
 
-        color: #fff;
-        background-color: #190A1C;
-        font-size: 1rem;
+button {
+    margin-top: 1.2rem;
+    width: 70%;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    background-color: #190A1C;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
 
-        border-radius: 4px;
-        border: none;
+.container {
+    background: linear-gradient(to bottom, #190A1C, #5c056a);
+    margin: auto;
+    max-width: 43.75rem;
+    border-radius: 0.31rem;
+    overflow: hidden;
+}
 
-        cursor: pointer;
-    }
-    .container{
-        background: linear-gradient(to bottom, #190A1C, #5c056a);
-        margin: auto;
+.header-title {
+    color: #ffce23;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 0.63rem;
+}
 
-        max-width: 700px;
+.subscription {
+    text-align: center;
+    color: #fff;
+    font-size: 0.81rem;
+    padding: 0.5rem;
+    max-width: 43.75rem;
+    margin: auto;
+}
 
-        border-radius: 5px;
-        overflow: hidden;
+.rodape {
+    text-align: center;
+    color: #fff;
+    font-size: 0.63rem;
+    padding: 0.63rem;
+}
 
-    }
+.col-form {
+    background: linear-gradient(to bottom, #5c056a, #1d0c20);
+    text-align: center;
+    margin-top: 1.25rem;
+    width: 38.75rem;
+    color: #fff;
+    font-size: 1.44rem;
+    padding: 0.94rem;
+    border-radius: 0.5rem;
+}
 
-    .header-title{
-        color: #ffce23;
-        text-align: center;
-        font-size: 1.6rem;
-        font-weight: 700;
-        padding: 10px;
-    }
-    .subscription{
-        text-align: center;
-        color: #fff;
-        font-size: 13px;
-        padding: 8px;
-        max-width: 700px;
-        margin: auto;
-        
-    }
-    .rodape{
-        text-align: center;
-        color: #fff;
-        font-size: 10px;
-        padding: 10px;
-    }
-    .col-form{
-        background: linear-gradient(to bottom,#5c056a, #1d0c20);
-        text-align: center;
-        margin-top: 20px;
-        width: 620px;
-        color: #fff;
-        font-size: 23px;
-        padding: 15px;
-        border-radius: 8px;
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
 
-    }
-    .flex-container{
-        display: flex;
-        justify-content: space-around;
+.form-register {
+    padding: 0.63rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
 
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.63rem;
+}
 
-    }
-    .form-register{
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: space-around;
-    }
-    .card-container{
-        display: flex;
-        justify-content: space-around;
-        gap: 10px;
-    }
-    .card-stack{
-        position: relative;
-        bottom: 15px;
-        right: 20px;
-        width: 150px;
-        height: 215px;
-        margin: 10px;
-        padding: 20px;
-    }
-    .card-back {
-        position: absolute;
-        width: 180px;
-        height: 250px;
-        border-radius: 10px;
-        background: linear-gradient(to bottom, #020eba, #230146);
-    }
+.card-stack {
+    position: relative;
+    bottom: 0.94rem;
+    right: 1.25rem;
+    width: 9.38rem;
+    height: 13.44rem;
+    margin: 0.63rem;
+    padding: 1.25rem;
+}
 
-    .card-front {
-        background: linear-gradient(to bottom,#1c25d4, #54429d);
-        width: 150px;
-        color: #fff;
-        font-size: 24px;
-        padding: 5px;
-        margin: 10px;
-        border-radius: 8px;
-    }
-    .image-group{
-        width: 100px;   /* ou 64px, 72px, etc. */
-        height: 100px;
-        display: block;
-        margin: 10px auto;
-    }
+.card-back {
+    position: absolute;
+    width: 11.25rem;
+    height: 15.63rem;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #020eba, #230146);
+}
+
+.card-front {
+    background: linear-gradient(to bottom, #1c25d4, #54429d);
+    width: 9.38rem;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.31rem;
+    margin: 0.63rem;
+    border-radius: 8px;
+}
+
+.image-group {
+    width: 6.25rem;
+    height: 6.25rem;
+    display: block;
+    margin: 0.63rem auto;
+}
