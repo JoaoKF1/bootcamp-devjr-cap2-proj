@@ -44,7 +44,7 @@ button {
     text-align: center;
     color: #fff;
     font-size: 0.81rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     max-width: 43.75rem;
     margin: auto;
 }
@@ -59,12 +59,14 @@ button {
 .col-form {
     background: linear-gradient(to bottom, #5c056a, #1d0c20);
     text-align: center;
-    margin-top: 1.25rem;
-    width: 38.75rem;
-    color: #fff;
-    font-size: 1.44rem;
-    padding: 0.94rem;
+    margin-top: 2rem;
+    width: 39rem;
+    padding: 1rem;
     border-radius: 0.5rem;
+}
+.header-subtitle{
+    color: #fff;
+    font-size: 1.4rem
 }
 
 .flex-container {
@@ -120,3 +122,70 @@ button {
     display: block;
     margin: 0.63rem auto;
 }
+
+@media screen and (max-width: 500px){
+    .container {
+        padding: 0.2rem;
+        max-width: 100%;
+    }
+
+    .col-form {
+        width: 85%;
+        font-size: 1.6rem;
+        padding: 0.4rem;
+        margin-top: 1rem;
+    }
+    .header-subtitle{
+        margin-top: 1rem;
+    }
+
+    .header-title {
+        font-size: 1.9rem;
+    }
+
+    .subscription {
+        font-size: 0.89rem;
+    }
+
+    .form-register input {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .card-stack {
+        width: 80%;
+        height:19rem;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .card-back{
+        height: 320px;
+        width: 85%;
+    }
+    .card-front {
+        width: 85%;
+        font-size: 1.8rem;
+    }
+
+    .image-group {
+        width: 10rem;
+        height: 100%;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    .rodape {
+        font-size: 0.6rem;
+    }
+}
+
